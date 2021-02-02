@@ -1,0 +1,12 @@
+According to Banker's Algorithm, 
+The System is in a safe state.
+One of the possible safe order is :- <P0, P3, P1, P2, P4>
+Note: This is just one of the possible safe orders.
+The order of P0, P3 shall remain same and after that any of the processes can  be selected.
+Hence, 
+ <P0, P3, P1, P4, P2>
+ <P0, P3, P2, P1, P4>
+ <P0, P3, P2, P4, P1>
+ <P0, P3, P4, P2, P1>
+ <P0, P3, P4, P1, P2>
+are also valid safe orders. (Since answer is yes, explanation isn't required as per classroom comments).
